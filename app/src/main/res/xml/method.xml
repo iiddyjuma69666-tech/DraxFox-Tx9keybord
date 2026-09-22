@@ -1,0 +1,1 @@
+<input-method xmlns:android="http://schemas.android.com/apk/res/android" android:settingsActivity="com.draxfox.tx9keyboard.SettingsActivity"><subtype android:label="Swahili" android:imeSubtypeLocale="sw" android:imeSubtypeMode="keyboard"/><subtype android:label="English" android:imeSubtypeLocale="en" android:imeSubtypeMode="keyboard"/></input-method>
