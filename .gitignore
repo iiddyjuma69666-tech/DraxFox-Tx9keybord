@@ -1,0 +1,13 @@
+# Build outputs / local machine files — never needed in git
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+
+# Release signing material — NEVER commit a real release keystore or its passwords.
+# (tx9-debug.keystore is intentionally NOT listed here — it's a fixed TESTING key we
+#  commit on purpose so every debug build has a stable signature. A real release
+#  keystore/*.jks must never be added to this repo — keep it outside git entirely,
+#  and pass its password via GitHub Actions Secrets when we get to a release build.)
+*.jks
